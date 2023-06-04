@@ -19,6 +19,12 @@ dependencies {
     implementation("ch.qos.logback:logback-classic:1.4.7")
     // https://mvnrepository.com/artifact/org.apache.httpcomponents.client5/httpclient5
     implementation("org.apache.httpcomponents.client5:httpclient5:5.2.1")
+    // https://mvnrepository.com/artifact/com.opencsv/opencsv
+    implementation("com.opencsv:opencsv:5.7.1")
+//    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+//    implementation("com.fasterxml.jackson.core:jackson-databind:2.15.2")
+
+    implementation("org.jetbrains:annotations:24.0.0")
 
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")

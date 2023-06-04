@@ -5,10 +5,10 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum Addresses {
+public enum Endpoints {
 
-    _8080("http://localhost:8080"),
-    _8081("http://localhost:8081");
+    SAMPLE("/sample"),
+    TEST("/test");
 
     private final String value;
 }

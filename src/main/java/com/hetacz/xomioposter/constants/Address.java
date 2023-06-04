@@ -5,11 +5,10 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public enum Headers {
+public enum Address {
 
-    X_FORWARD_FOR("X-Forwarded-For"),
-    USER_AGENT("User-Agent"),
-    SEC_CH_UA("Sec-Ch-Ua");
+    _8080("http://localhost:8080"),
+    _8081("http://localhost:8081");
 
     private final String value;
 }
