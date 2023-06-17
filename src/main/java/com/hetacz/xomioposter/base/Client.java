@@ -60,7 +60,7 @@ public class Client {
             ClassicHttpRequest post = ClassicRequestBuilder
                     .post(Address._8080.getValue() + Endpoints.TEST.getValue())
                     .setEntity(PAYLOAD, ContentType.APPLICATION_JSON)
-                    .addHeader(Headers.SEC_CH_UA.getValue(), SEC_CH_UA)
+                    //.addHeader(Headers.SEC_CH_UA.getValue(), SEC_CH_UA)
                     .addHeader(Headers.USER_AGENT.getValue(), USER_AGENT)
                     .addHeader(Headers.X_FORWARD_FOR.getValue(), Utils.getRandomIP())
                     .build();

@@ -8,8 +8,8 @@ import lombok.Getter;
 public enum Headers {
 
     X_FORWARD_FOR("X-Forwarded-For"),
-    USER_AGENT("User-Agent"),
-    SEC_CH_UA("Sec-Ch-Ua");
+    USER_AGENT("User-Agent");
+    //SEC_CH_UA("Sec-Ch-Ua");
 
     private final String value;
 }

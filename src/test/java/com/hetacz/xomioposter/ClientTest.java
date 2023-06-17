@@ -7,15 +7,16 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ClientTest {
 
+    private static final String ASSERTION_MSG = "Should return 200";
     private final Client client = new Client();
 
     @Test
     void sendGetRequest() {
-        assertEquals(200, client.sendGetRequest(), "Should return 200");
+        assertEquals(200, client.sendGetRequest(), ASSERTION_MSG);
     }
 
     @Test
     void sendPostRequest() {
-        assertEquals(200, client.sendPostRequest(), "Should return 200");
+        assertEquals(200, client.sendPostRequest(), ASSERTION_MSG);
     }
 }
